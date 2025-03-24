@@ -1,2 +1,0 @@
-# usermanagementapi
-Users management example

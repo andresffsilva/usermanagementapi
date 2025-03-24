@@ -1,0 +1,47 @@
+@UserManagementAPI_HostAddress = http://localhost:5201
+
+POST {{UserManagementAPI_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+###
+
+GET {{UserManagementAPI_HostAddress}}/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImV4cCI6MTc0Mjg0NjA2OH0.U24fSI0sBnl6ZHLsYyYdDdbvGSnEa5oIzSvd4AnW5z4
+
+###
+
+GET {{UserManagementAPI_HostAddress}}/api/users/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImV4cCI6MTc0Mjg0NjA2OH0.U24fSI0sBnl6ZHLsYyYdDdbvGSnEa5oIzSvd4AnW5z4
+
+###
+
+POST {{UserManagementAPI_HostAddress}}/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImV4cCI6MTc0Mjg0NjA2OH0.U24fSI0sBnl6ZHLsYyYdDdbvGSnEa5oIzSvd4AnW5z4
+Content-Type: application/json
+
+{
+    "Id": 2,
+    "Nombre": "Test",
+    "Email": "test@example.com"
+}
+###
+
+PUT {{UserManagementAPI_HostAddress}}/api/users/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImV4cCI6MTc0Mjg0NjA2OH0.U24fSI0sBnl6ZHLsYyYdDdbvGSnEa5oIzSvd4AnW5z4
+Content-Type: application/json
+
+{
+    "Id": 2,
+    "Nombre": "TestNew",
+    "Email": "testnew@example.com"
+}
+###
+
+DELETE {{UserManagementAPI_HostAddress}}/api/users/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImV4cCI6MTc0Mjg0NjA2OH0.U24fSI0sBnl6ZHLsYyYdDdbvGSnEa5oIzSvd4AnW5z4
+
+###

@@ -1,0 +1,623 @@
+2025-03-24 12:41:00.568 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 12:41:00.609 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 12:41:00.609 -05:00 [INF] Hosting environment: Development
+2025-03-24 12:41:00.609 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 12:42:23.755 -05:00 [INF] Application is shutting down...
+2025-03-24 12:46:22.867 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 12:46:22.903 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 12:46:22.904 -05:00 [INF] Hosting environment: Development
+2025-03-24 12:46:22.904 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 12:46:34.163 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/auth/login - null 51
+2025-03-24 12:46:34.178 -05:00 [WRN] Missing authentication token.
+2025-03-24 12:46:34.181 -05:00 [INF] HTTP GET /auth/login responded 401 in 14.4566 ms
+2025-03-24 12:46:34.185 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/auth/login - 401 null null 23.5621ms
+2025-03-24 12:49:44.951 -05:00 [INF] Application is shutting down...
+2025-03-24 12:49:48.404 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 12:49:48.441 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 12:49:48.441 -05:00 [INF] Hosting environment: Development
+2025-03-24 12:49:48.441 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 12:49:53.981 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/auth/login - null 51
+2025-03-24 12:49:53.996 -05:00 [WRN] Missing authentication token.
+2025-03-24 12:49:53.999 -05:00 [INF] HTTP GET /auth/login responded 401 in 13.5569 ms
+2025-03-24 12:49:54.004 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/auth/login - 401 null null 23.7656ms
+2025-03-24 12:50:55.346 -05:00 [INF] Application is shutting down...
+2025-03-24 12:50:58.495 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 12:50:58.530 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 12:50:58.531 -05:00 [INF] Hosting environment: Development
+2025-03-24 12:50:58.531 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 12:51:20.825 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/auth/login - null 51
+2025-03-24 12:51:20.846 -05:00 [INF] Incoming Request: GET /auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 12:51:20.852 -05:00 [INF] Outgoing Response: 404 - 
+2025-03-24 12:51:20.853 -05:00 [INF] HTTP GET /auth/login responded 404 in 22.4637 ms
+2025-03-24 12:51:20.858 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/auth/login - 404 0 null 34.5977ms
+2025-03-24 12:51:20.860 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5201/auth/login, Response status code: 404
+2025-03-24 12:51:56.671 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/auth/login - null 51
+2025-03-24 12:51:56.674 -05:00 [INF] Incoming Request: GET /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 12:51:56.676 -05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-03-24 12:51:56.676 -05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-03-24 12:51:56.676 -05:00 [INF] Outgoing Response: 405 - 
+2025-03-24 12:51:56.676 -05:00 [INF] HTTP GET /api/auth/login responded 405 in 3.9505 ms
+2025-03-24 12:51:56.676 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/auth/login - 405 0 null 6.4146ms
+2025-03-24 12:52:11.624 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - null 51
+2025-03-24 12:52:11.628 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 12:52:11.630 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 12:52:11.649 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 12:52:11.701 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-24 12:52:11.713 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 63.1775ms
+2025-03-24 12:52:11.713 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 12:52:11.713 -05:00 [INF] Outgoing Response: 415 - {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-6aafb4608b4fa42041cf3ab785ae8953-0620e43ee652ace8-00"}
+2025-03-24 12:52:11.714 -05:00 [INF] HTTP POST /api/auth/login responded 415 in 86.6939 ms
+2025-03-24 12:52:11.714 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 415 null application/problem+json; charset=utf-8 89.844ms
+2025-03-24 12:52:38.481 -05:00 [INF] Application is shutting down...
+2025-03-24 13:26:14.319 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 13:26:14.352 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:26:14.352 -05:00 [INF] Hosting environment: Development
+2025-03-24 13:26:14.352 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 13:26:19.125 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - null 51
+2025-03-24 13:26:19.139 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:26:19.145 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:26:19.154 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:26:19.190 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-24 13:26:19.202 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 46.8048ms
+2025-03-24 13:26:19.207 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:26:19.207 -05:00 [INF] Outgoing Response: 415 - {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-98bb3487cb35527d3be6a8c44fb6cc59-5e85ea345ed71a69-00"}
+2025-03-24 13:26:19.208 -05:00 [INF] HTTP POST /api/auth/login responded 415 in 79.5634 ms
+2025-03-24 13:26:19.209 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 415 null application/problem+json; charset=utf-8 84.9279ms
+2025-03-24 13:26:43.805 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - null 51
+2025-03-24 13:26:43.807 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:26:43.808 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:26:43.808 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:26:43.813 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-24 13:26:43.814 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 5.5261ms
+2025-03-24 13:26:43.814 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:26:43.814 -05:00 [INF] Outgoing Response: 415 - {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-2800f913f8cf7811ec68ddd5179cc38d-bc382ff05cf85177-00"}
+2025-03-24 13:26:43.814 -05:00 [INF] HTTP POST /api/auth/login responded 415 in 7.7435 ms
+2025-03-24 13:26:43.814 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 415 null application/problem+json; charset=utf-8 9.52ms
+2025-03-24 13:27:09.768 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - null 51
+2025-03-24 13:27:09.773 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:27:09.773 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:27:09.774 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:27:09.778 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-24 13:27:09.778 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 4.3097ms
+2025-03-24 13:27:09.778 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:27:09.778 -05:00 [INF] Outgoing Response: 415 - {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-1f0daa744d1775b2b6bc2c140555f33c-a5d9c901dfedeb33-00"}
+2025-03-24 13:27:09.778 -05:00 [INF] HTTP POST /api/auth/login responded 415 in 7.1928 ms
+2025-03-24 13:27:09.779 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 415 null application/problem+json; charset=utf-8 11.1333ms
+2025-03-24 13:30:58.532 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/x-www-form-urlencoded 97
+2025-03-24 13:30:58.535 -05:00 [INF] Incoming Request: POST /api/auth/login - %7B%0A%20%20%20%20%22Id%22%20:%201,%0A%20%20%20%20%22Email%22%20:%20%22admin@example.com%22%0A%7D
+2025-03-24 13:30:58.536 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:30:58.537 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:30:58.560 -05:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-24 13:30:58.560 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 23.5594ms
+2025-03-24 13:30:58.561 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:30:58.561 -05:00 [INF] Outgoing Response: 415 - {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-ffef3abacf525116c2422993b75ad9b0-168fa0b3fb3519bc-00"}
+2025-03-24 13:30:58.561 -05:00 [INF] HTTP POST /api/auth/login responded 415 in 26.5861 ms
+2025-03-24 13:30:58.561 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 415 null application/problem+json; charset=utf-8 29.8146ms
+2025-03-24 13:31:19.219 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:31:19.220 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:31:19.220 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:31:19.220 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:31:19.347 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 126.347ms
+2025-03-24 13:31:19.348 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:31:19.348 -05:00 [ERR] An unhandled exception occurred.
+System.InvalidOperationException: The seed entity for entity type 'User' cannot be added because no value was provided for the required property 'Nombre'.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateData(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.InMemory.Infrastructure.Internal.InMemoryModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at AuthController.Login(LoginRequest request) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Controllers/AuthController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RequestResponseLoggingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/RequestResponseLoggingMiddleware.cs:line 27
+2025-03-24 13:31:19.365 -05:00 [ERR] An unhandled exception occurred.
+System.InvalidOperationException: The seed entity for entity type 'User' cannot be added because no value was provided for the required property 'Nombre'.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateData(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.InMemory.Infrastructure.Internal.InMemoryModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at AuthController.Login(LoginRequest request) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Controllers/AuthController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at RequestResponseLoggingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/RequestResponseLoggingMiddleware.cs:line 27
+   at JwtAuthenticationMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/JwtAuthenticationMiddleware.cs:line 26
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/ExceptionHandlingMiddleware.cs:line 19
+2025-03-24 13:31:19.371 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/ExceptionHandlingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 13:31:19.376 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 13:31:19.376 -05:00 [ERR] HTTP POST /api/auth/login responded 500 in 156.8287 ms
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/ExceptionHandlingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-24 13:31:19.377 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/ExceptionHandlingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 13:31:19.378 -05:00 [ERR] An exception was thrown attempting to display the error page.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.DisplayExceptionContent(ErrorContext errorContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 13:31:19.379 -05:00 [ERR] Connection id "0HNBB05FHA4QJ", Request id "0HNBB05FHA4QJ:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.MemoryStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.GetTaskForValueTaskSource(IValueTaskSource`1 t)
+--- End of stack trace from previous location ---
+   at ExceptionHandlingMiddleware.Invoke(HttpContext context) in /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI/Middlewares/ExceptionHandlingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2025-03-24 13:31:19.380 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 500 0 null 161.511ms
+2025-03-24 13:32:39.946 -05:00 [INF] Application is shutting down...
+2025-03-24 13:33:18.248 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 13:33:18.284 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:33:18.284 -05:00 [INF] Hosting environment: Development
+2025-03-24 13:33:18.284 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 13:33:22.270 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:33:22.287 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:33:22.294 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:33:22.302 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:33:22.483 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:33:22.486 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 183.3969ms
+2025-03-24 13:33:22.490 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:33:22.491 -05:00 [INF] Outgoing Response: 401 - {"message":"Invalid email or password."}
+2025-03-24 13:33:22.492 -05:00 [INF] HTTP POST /api/auth/login responded 401 in 217.7147 ms
+2025-03-24 13:33:22.493 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 401 null application/json; charset=utf-8 224.4182ms
+2025-03-24 13:33:45.915 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:33:45.919 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:33:45.920 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:33:45.921 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:33:45.931 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:33:45.931 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 9.7619ms
+2025-03-24 13:33:45.932 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:33:45.932 -05:00 [INF] Outgoing Response: 401 - {"message":"Invalid email or password."}
+2025-03-24 13:33:45.932 -05:00 [INF] HTTP POST /api/auth/login responded 401 in 13.6294 ms
+2025-03-24 13:33:45.932 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 401 null application/json; charset=utf-8 18.3439ms
+2025-03-24 13:36:24.230 -05:00 [INF] Application is shutting down...
+2025-03-24 13:36:27.683 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 13:36:27.720 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:36:27.720 -05:00 [INF] Hosting environment: Development
+2025-03-24 13:36:27.720 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 13:36:30.376 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:36:30.393 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:36:30.400 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:36:30.408 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:36:30.589 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:36:30.592 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 183.5615ms
+2025-03-24 13:36:30.597 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:36:30.597 -05:00 [INF] Outgoing Response: 401 - {"message":"Invalid email or password."}
+2025-03-24 13:36:30.598 -05:00 [INF] HTTP POST /api/auth/login responded 401 in 218.8274 ms
+2025-03-24 13:36:30.600 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 401 null application/json; charset=utf-8 225.0996ms
+2025-03-24 13:37:37.835 -05:00 [INF] Application is shutting down...
+2025-03-24 13:37:41.081 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 13:37:41.117 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:37:41.117 -05:00 [INF] Hosting environment: Development
+2025-03-24 13:37:41.117 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 13:37:45.979 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:37:45.993 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:37:46.002 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:37:46.010 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:37:46.183 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:37:46.186 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 174.9742ms
+2025-03-24 13:37:46.190 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:37:46.190 -05:00 [INF] Outgoing Response: 401 - {"message":"Invalid email or password."}
+2025-03-24 13:37:46.191 -05:00 [INF] HTTP POST /api/auth/login responded 401 in 208.5988 ms
+2025-03-24 13:37:46.193 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 401 null application/json; charset=utf-8 215.4055ms
+2025-03-24 13:38:11.797 -05:00 [INF] Application is shutting down...
+2025-03-24 13:46:42.237 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 13:46:42.272 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:46:42.272 -05:00 [INF] Hosting environment: Development
+2025-03-24 13:46:42.272 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 13:46:47.822 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:46:47.841 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:46:47.848 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:46:47.855 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:46:48.034 -05:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:46:48.037 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 180.7907ms
+2025-03-24 13:46:48.042 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:46:48.042 -05:00 [INF] Outgoing Response: 401 - {"message":"Invalid email or password."}
+2025-03-24 13:46:48.043 -05:00 [INF] HTTP POST /api/auth/login responded 401 in 216.8913 ms
+2025-03-24 13:46:48.044 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 401 null application/json; charset=utf-8 223.7546ms
+2025-03-24 13:47:04.060 -05:00 [INF] Application is shutting down...
+2025-03-24 13:54:24.376 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 13:54:24.451 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 13:54:24.452 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 13:54:24.452 -05:00 [INF] Hosting environment: Development
+2025-03-24 13:54:24.452 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 13:54:28.012 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/auth/login - application/json 51
+2025-03-24 13:54:28.032 -05:00 [INF] Incoming Request: POST /api/auth/login - {
+    "Id" : 1,
+    "Email" : "admin@example.com"
+}
+2025-03-24 13:54:28.040 -05:00 [INF] Executing endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:54:28.047 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserManagementAPI.Models.LoginRequest) on controller AuthController (UserManagementAPI).
+2025-03-24 13:54:28.130 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-24 13:54:28.133 -05:00 [INF] Executed action AuthController.Login (UserManagementAPI) in 84.8876ms
+2025-03-24 13:54:28.137 -05:00 [INF] Executed endpoint 'AuthController.Login (UserManagementAPI)'
+2025-03-24 13:54:28.138 -05:00 [INF] Outgoing Response: 200 - {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZW1haWwiOiJhZG1pbkBleGFtcGxlLmNvbSIsImV4cCI6MTc0Mjg0NjA2OH0.U24fSI0sBnl6ZHLsYyYdDdbvGSnEa5oIzSvd4AnW5z4","expiresIn":3600}
+2025-03-24 13:54:28.139 -05:00 [INF] HTTP POST /api/auth/login responded 200 in 123.4721 ms
+2025-03-24 13:54:28.140 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/auth/login - 200 null application/json; charset=utf-8 128.6532ms
+2025-03-24 13:55:57.530 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 13:55:57.554 -05:00 [WRN] Invalid token: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'suI-umYtCsTGdv8LNjnOfGRlLBX8N90b9lq8th2_a0Y'.'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-03-24 13:55:57.554 -05:00 [INF] HTTP GET /api/users responded 401 in 21.2668 ms
+2025-03-24 13:55:57.554 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 401 null null 25.0599ms
+2025-03-24 14:06:10.915 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:06:10.935 -05:00 [WRN] Invalid token: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'suI-umYtCsTGdv8LNjnOfGRlLBX8N90b9lq8th2_a0Y'.'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-03-24 14:06:10.937 -05:00 [INF] HTTP GET /api/users responded 401 in 15.7395 ms
+2025-03-24 14:06:10.938 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 401 null null 24.1073ms
+2025-03-24 14:09:00.094 -05:00 [INF] Application is shutting down...
+2025-03-24 14:15:06.500 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:15:06.574 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 14:15:06.576 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:15:06.576 -05:00 [INF] Hosting environment: Development
+2025-03-24 14:15:06.576 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 14:15:09.373 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:15:09.403 -05:00 [WRN] Invalid token: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'suI-umYtCsTGdv8LNjnOfGRlLBX8N90b9lq8th2_a0Y'.'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-03-24 14:15:09.405 -05:00 [INF] HTTP GET /api/users responded 401 in 29.8756 ms
+2025-03-24 14:15:09.410 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 401 null null 37.6059ms
+2025-03-24 14:15:30.451 -05:00 [INF] Application is shutting down...
+2025-03-24 14:16:19.175 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:16:19.248 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 14:16:19.249 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:16:19.250 -05:00 [INF] Hosting environment: Development
+2025-03-24 14:16:19.250 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 14:16:28.430 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:16:28.462 -05:00 [WRN] Invalid token: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'suI-umYtCsTGdv8LNjnOfGRlLBX8N90b9lq8th2_a0Y'.'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2025-03-24 14:16:28.464 -05:00 [INF] HTTP GET /api/users responded 401 in 30.3285 ms
+2025-03-24 14:16:28.469 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 401 null null 39.1056ms
+2025-03-24 14:17:30.954 -05:00 [INF] Application is shutting down...
+2025-03-24 14:17:35.911 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:17:35.980 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 14:17:35.981 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:17:35.982 -05:00 [INF] Hosting environment: Development
+2025-03-24 14:17:35.982 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 14:17:41.120 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:17:41.155 -05:00 [INF] Incoming Request: GET /api/users - 
+2025-03-24 14:17:41.161 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:17:41.166 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagementAPI.Models.User]]] GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:17:41.211 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-24 14:17:41.219 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 52.508ms
+2025-03-24 14:17:41.224 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:17:41.224 -05:00 [INF] Outgoing Response: 200 - [{"id":1,"nombre":"Admin","email":"admin@example.com"}]
+2025-03-24 14:17:41.225 -05:00 [INF] HTTP GET /api/users responded 200 in 101.9640 ms
+2025-03-24 14:17:41.226 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 200 null application/json; charset=utf-8 107.2503ms
+2025-03-24 14:18:04.119 -05:00 [INF] Application is shutting down...
+2025-03-24 14:21:16.460 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:21:16.532 -05:00 [INF] Now listening on: http://localhost:5201
+2025-03-24 14:21:16.533 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 14:21:16.533 -05:00 [INF] Hosting environment: Development
+2025-03-24 14:21:16.533 -05:00 [INF] Content root path: /Users/andres_silva/Documents/Coursera/Backend Devlopment with dot NET/UserManagementApi/UserManagementAPI
+2025-03-24 14:21:21.598 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:21:21.636 -05:00 [INF] Incoming Request: GET /api/users - 
+2025-03-24 14:21:21.642 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:21:21.647 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagementAPI.Models.User]]] GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:21.691 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-24 14:21:21.699 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 51.6663ms
+2025-03-24 14:21:21.704 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:21:21.704 -05:00 [INF] Outgoing Response: 200 - [{"id":1,"nombre":"Admin","email":"admin@example.com"}]
+2025-03-24 14:21:21.705 -05:00 [INF] HTTP GET /api/users responded 200 in 104.3094 ms
+2025-03-24 14:21:21.706 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 200 null application/json; charset=utf-8 109.0491ms
+2025-03-24 14:21:24.209 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users/1 - null null
+2025-03-24 14:21:24.212 -05:00 [INF] Incoming Request: GET /api/users/1 - 
+2025-03-24 14:21:24.214 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUser (UserManagementAPI)'
+2025-03-24 14:21:24.221 -05:00 [INF] Route matched with {action = "GetUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User]] GetUser(Int32) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:24.272 -05:00 [INF] Executing OkObjectResult, writing value of type 'UserManagementAPI.Models.User'.
+2025-03-24 14:21:24.272 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUser (UserManagementAPI) in 50.8959ms
+2025-03-24 14:21:24.272 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUser (UserManagementAPI)'
+2025-03-24 14:21:24.273 -05:00 [INF] Outgoing Response: 200 - {"id":1,"nombre":"Admin","email":"admin@example.com"}
+2025-03-24 14:21:24.273 -05:00 [INF] HTTP GET /api/users/1 responded 200 in 62.5771 ms
+2025-03-24 14:21:24.273 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users/1 - 200 null application/json; charset=utf-8 63.9676ms
+2025-03-24 14:21:31.768 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5201/api/users - application/json 70
+2025-03-24 14:21:31.772 -05:00 [INF] Incoming Request: POST /api/users - {
+    "Id": 2,
+    "Nombre": "Test",
+    "Email": "test@example.com"
+}
+2025-03-24 14:21:31.772 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.PostUser (UserManagementAPI)'
+2025-03-24 14:21:31.775 -05:00 [INF] Route matched with {action = "PostUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User]] PostUser(UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:31.802 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:21:31.805 -05:00 [INF] Executing CreatedAtActionResult, writing value of type 'UserManagementAPI.Models.User'.
+2025-03-24 14:21:31.810 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.PostUser (UserManagementAPI) in 34.7641ms
+2025-03-24 14:21:31.811 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.PostUser (UserManagementAPI)'
+2025-03-24 14:21:31.811 -05:00 [INF] Outgoing Response: 201 - {"id":2,"nombre":"Test","email":"test@example.com"}
+2025-03-24 14:21:31.811 -05:00 [INF] HTTP POST /api/users responded 201 in 41.8692 ms
+2025-03-24 14:21:31.811 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5201/api/users - 201 null application/json; charset=utf-8 43.2181ms
+2025-03-24 14:21:37.291 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:21:37.292 -05:00 [INF] Incoming Request: GET /api/users - 
+2025-03-24 14:21:37.292 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:21:37.292 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagementAPI.Models.User]]] GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:37.294 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-24 14:21:37.295 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 2.4405ms
+2025-03-24 14:21:37.295 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:21:37.295 -05:00 [INF] Outgoing Response: 200 - [{"id":1,"nombre":"Admin","email":"admin@example.com"},{"id":2,"nombre":"Test","email":"test@example.com"}]
+2025-03-24 14:21:37.295 -05:00 [INF] HTTP GET /api/users responded 200 in 4.0407 ms
+2025-03-24 14:21:37.296 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 200 null application/json; charset=utf-8 4.9001ms
+2025-03-24 14:21:39.611 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users/1 - null null
+2025-03-24 14:21:39.613 -05:00 [INF] Incoming Request: GET /api/users/1 - 
+2025-03-24 14:21:39.613 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUser (UserManagementAPI)'
+2025-03-24 14:21:39.614 -05:00 [INF] Route matched with {action = "GetUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[UserManagementAPI.Models.User]] GetUser(Int32) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:39.617 -05:00 [INF] Executing OkObjectResult, writing value of type 'UserManagementAPI.Models.User'.
+2025-03-24 14:21:39.617 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUser (UserManagementAPI) in 3.6545ms
+2025-03-24 14:21:39.618 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUser (UserManagementAPI)'
+2025-03-24 14:21:39.618 -05:00 [INF] Outgoing Response: 200 - {"id":1,"nombre":"Admin","email":"admin@example.com"}
+2025-03-24 14:21:39.618 -05:00 [INF] HTTP GET /api/users/1 responded 200 in 5.6048 ms
+2025-03-24 14:21:39.618 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users/1 - 200 null application/json; charset=utf-8 6.7642ms
+2025-03-24 14:21:44.103 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5201/api/users/2 - application/json 76
+2025-03-24 14:21:44.104 -05:00 [INF] Incoming Request: PUT /api/users/2 - {
+    "Id": 2,
+    "Nombre": "TestNew",
+    "Email": "testnew@example.com"
+}
+2025-03-24 14:21:44.104 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.PutUser (UserManagementAPI)'
+2025-03-24 14:21:44.109 -05:00 [INF] Route matched with {action = "PutUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutUser(Int32, UserManagementAPI.Models.User) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:44.118 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:21:44.119 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-24 14:21:44.119 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.PutUser (UserManagementAPI) in 9.9117ms
+2025-03-24 14:21:44.119 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.PutUser (UserManagementAPI)'
+2025-03-24 14:21:44.119 -05:00 [INF] Outgoing Response: 204 - 
+2025-03-24 14:21:44.119 -05:00 [INF] HTTP PUT /api/users/2 responded 204 in 15.3569 ms
+2025-03-24 14:21:44.119 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5201/api/users/2 - 204 null null 15.955ms
+2025-03-24 14:21:52.214 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:21:52.215 -05:00 [INF] Incoming Request: GET /api/users - 
+2025-03-24 14:21:52.215 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:21:52.215 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagementAPI.Models.User]]] GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:21:52.216 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-24 14:21:52.217 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 1.294ms
+2025-03-24 14:21:52.217 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:21:52.217 -05:00 [INF] Outgoing Response: 200 - [{"id":1,"nombre":"Admin","email":"admin@example.com"},{"id":2,"nombre":"TestNew","email":"testnew@example.com"}]
+2025-03-24 14:21:52.217 -05:00 [INF] HTTP GET /api/users responded 200 in 2.7671 ms
+2025-03-24 14:21:52.218 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 200 null application/json; charset=utf-8 3.4575ms
+2025-03-24 14:22:00.499 -05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5201/api/users/2 - null null
+2025-03-24 14:22:00.500 -05:00 [INF] Incoming Request: DELETE /api/users/2 - 
+2025-03-24 14:22:00.500 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.DeleteUser (UserManagementAPI)'
+2025-03-24 14:22:00.505 -05:00 [INF] Route matched with {action = "DeleteUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteUser(Int32) on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:22:00.520 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-03-24 14:22:00.521 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-03-24 14:22:00.521 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.DeleteUser (UserManagementAPI) in 16.4288ms
+2025-03-24 14:22:00.521 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.DeleteUser (UserManagementAPI)'
+2025-03-24 14:22:00.521 -05:00 [INF] Outgoing Response: 204 - 
+2025-03-24 14:22:00.521 -05:00 [INF] HTTP DELETE /api/users/2 responded 204 in 21.6753 ms
+2025-03-24 14:22:00.522 -05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5201/api/users/2 - 204 null null 22.1846ms
+2025-03-24 14:22:02.941 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5201/api/users - null null
+2025-03-24 14:22:02.942 -05:00 [INF] Incoming Request: GET /api/users - 
+2025-03-24 14:22:02.942 -05:00 [INF] Executing endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:22:02.942 -05:00 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[UserManagementAPI.Models.User]]] GetUsers() on controller UserManagementAPI.Controllers.UsersController (UserManagementAPI).
+2025-03-24 14:22:02.944 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagementAPI.Models.User, UserManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-24 14:22:02.975 -05:00 [INF] Executed action UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI) in 32.2776ms
+2025-03-24 14:22:02.975 -05:00 [INF] Executed endpoint 'UserManagementAPI.Controllers.UsersController.GetUsers (UserManagementAPI)'
+2025-03-24 14:22:02.976 -05:00 [INF] Outgoing Response: 200 - [{"id":1,"nombre":"Admin","email":"admin@example.com"}]
+2025-03-24 14:22:02.977 -05:00 [INF] HTTP GET /api/users responded 200 in 35.7480 ms
+2025-03-24 14:22:02.978 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5201/api/users - 200 null application/json; charset=utf-8 36.5452ms
+2025-03-24 14:22:14.328 -05:00 [INF] Application is shutting down...
